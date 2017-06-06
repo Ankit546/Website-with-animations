@@ -1,0 +1,488 @@
+/*
+*************************************************************************************
+-------------------------------------------------------------------------------------
+
+                          Author           :     Anurag Harsh
+						  Website          :     taskbucket.org
+						  Creation Date    :     20th January 2017
+_____________________________________________________________________________________
+                                   
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+
+/*
+*************************************************************************************
+                                   Header Styles
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+/*
+************************************
+     Large Screen Device Styles                              
+////////////////////////////////////
+*/
+
+/*universal rule*/
+img{
+	max-width: 100%;
+	height: auto;
+}
+*{
+	box-sizing: border-box;
+}
+header img{
+	width:60px;
+	height:60px;	
+}
+
+header ul{
+	list-style-type:none;
+	float:right;
+	margin:0;
+	padding:0;
+	
+}
+
+header ul li{
+	float:left;
+}
+
+header ul li a{
+	color:#f55d3e;
+	display:block;
+	padding:20px 30px;
+	font-size:14px;
+	border-top:3px solid #fff;
+}
+
+header ul li a:hover{
+	color:#f55d3e;
+	border-top:3px solid #f55d3e;
+	text-decoration:none;
+		
+}
+
+/*
+*************************************************************************************
+                                   Content Styles
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+/*
+**********************************************************
+                        Section - Intro                          
+//////////////////////////////////////////////////////////
+*/
+/*
+************************************
+     Large Screen Device Styles                              
+////////////////////////////////////
+*/
+.section-intro{
+	background-color:#f55d3e;	
+}
+.section-intro img{
+	margin:10px auto;
+	display:block;
+	width:550px;
+	height:470px;
+	max-width: 100%;
+}
+
+.section-intro h1{
+	font-family:'Raleway', sans-serif;
+	margin-top:120px;
+	color:#fff;
+	font-size:58px;
+	padding-bottom:40px;
+}
+.section-intro p{
+	font-family:'Oxygen', sans-serif;
+	color:#fff;
+	font-size:16px;
+}
+
+.section-intro form{
+	margin-top:30px;	
+	margin-bottom:50px;
+}
+
+.section-intro [type=text]{
+	font-family: 'Maven Pro', sans-serif;
+	font-size:16px;
+	width:300px;
+	margin-bottom:10px;
+	height:40px;
+	padding:10px 10px;
+	border-radius:15px;
+	color:#f28123;
+	display:block;
+	max-width: 100%;
+}
+
+.section-intro [type=submit],.section-intro [type=reset]{
+	width:150px;
+	color:#fff;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:16px;
+	background-color:transparent;
+	padding:10px 30px;
+	border:1px solid #fff;
+	border-radius:15px;
+	max-width: 100%;
+}
+
+.section-intro [type=submit]:hover,.section-intro [type=reset]:hover{
+	border:1px solid #fff;
+	background-color:#fff;
+	color:#f28123;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+/*
+**********************************************************
+                        Section - Usage                          
+//////////////////////////////////////////////////////////
+*/
+/*
+************************************
+     Large Screen Device Styles                              
+////////////////////////////////////
+*/
+.section-usage{
+	background-color:#fff;	
+	/*max-width: 100%;*/
+}
+
+.section-usage h2{
+	margin-top:75px;
+	margin-bottom:100px;
+	color:#454f5b;
+	font-family: 'Oxygen', sans-serif;
+	font-size:42px;
+	text-align:center;	
+}
+
+
+
+.section-usage [class=col-sm-3]:nth-child(1){
+	height:250px;
+	border-bottom:2px solid #96adc8;
+	border-right:2px solid #96adc8;
+}
+
+.section-usage em{
+	line-height:250px;
+	color:#96adc8;
+	font-family: 'Oxygen', sans-serif;
+	font-size:20px;	
+	font-style:regular;
+}
+
+.section-usage [class=col-sm-3]:nth-child(2){
+	height:250px;
+	border-top:10px solid #ffe882;
+	border-right:2px solid #96adc8;
+	border-bottom:2px solid #96adc8;
+}
+
+.section-usage [class=col-sm-3]:nth-child(3){
+	height:250px;
+	border-top:10px solid #f28123;
+	border-right:2px solid #96adc8;
+	border-bottom:2px solid #96adc8;	
+}
+.section-usage [class=col-sm-3]:nth-child(4){
+	height:250px;
+	border-top:10px solid #c5283d;
+	border-right:2px solid #96adc8;
+	border-bottom:2px solid #96adc8;	
+}
+
+
+
+.section-usage [class=col-sm-3] h3{
+	margin-top:40px;
+	display:block;
+	font-family: 'Maven Pro', sans-serif;
+	text-align:center;
+	color:#000;
+	font-size:32px;
+}
+
+.section-usage [class=col-sm-3] p{
+	display:block;
+	margin-top:15px;
+	margin-bottom:35px;
+	text-align:center;
+	font-family: 'Oxygen', sans-serif;
+	color:#f55d3e;
+	font-size:18px;
+}
+
+.section-usage [class=col-sm-3] button{
+	display:block;
+	margin:20px auto;
+	color:#f55d3e;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:16px;
+	background-color:#fff;
+	padding:10px 30px;
+	border:2px solid #ccc;
+}
+
+.section-usage [class=col-sm-3] button:hover{
+	background-color:#fff;
+	border-color:#f55d3e;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+
+.section-usage [class=row]:nth-child(2){
+	margin-bottom:80px;	
+}
+
+/*
+**********************************************************
+                  Section - Services                          
+//////////////////////////////////////////////////////////
+*/
+/*
+************************************
+     Large Screen Device Styles                              
+////////////////////////////////////
+*/
+
+.section-services{
+	background-color:#f2f2f2;	
+}
+
+.section-services h2{
+	margin-top:75px;
+	margin-bottom:70px;
+	color:#454f5b;
+	font-family: 'Oxygen', sans-serif;
+	font-size:42px;
+	text-align:center;	
+}
+
+.section-services [class="row"]:nth-child(2){
+margin-bottom: 80px;	
+}
+
+.section-services [class="row"]:nth-child(3){
+padding-bottom: 80px;	
+}
+
+.section-services [class=col-sm-3] img{
+	display:block;
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+
+.section-services [class=col-sm-3] span{
+	display:block;
+	margin: 0 auto;
+	width:60px;
+	height:3px;
+	background-color:#f55d3e;	
+}
+
+.section-services [class=col-sm-3] h3{
+	display:block;
+	text-align:center;
+	font-family: 'Raleway', sans-serif;
+	font-size:28px;
+	color:#000;
+}
+
+.section-services [class=col-sm-3] a{
+	display:block;
+	text-align:center;
+	color:#f55d3e;
+	font-family: 'Maven Pro', sans-serif;
+	font-size:16px;
+}
+
+
+.section-services [class=col-sm-3] a:hover{
+	color:#f55d3e;
+	font-size:18px;
+	text-decoration:none;
+	-webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+}
+/*
+*************************************************************************************
+                                   Footer Styles
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+/*
+************************************
+     Large Screen Device Styles                              
+////////////////////////////////////
+*/
+footer{
+	padding:20px 0;	
+	background-color:#ffe882;
+}
+footer [class=col-sm-4] img:nth-child(1){
+	display:block;
+	margin:0 auto;
+	width:250px;
+	height:250px;
+	max-width: 100%;
+}
+
+footer [class=col-sm-4] img:nth-child(2){
+	display:block;
+	margin:0 auto;
+	width:250px;
+	margin-top:-30px;
+	max-width: 100%;
+}
+
+
+footer [class=col-sm-3] i{
+	display:inline-block;
+	font-size:30px;	
+	color:#f55d3e;
+	margin-top:230px;
+	padding-right:10px;
+}
+
+footer [class=col-sm-5] small{
+	margin-top:230px;
+	display:block;
+	font-size:16px;
+	color:#c5283d;
+	font-family:'Maven Pro', sans-serif;
+}
+/*
+*************************************************************************************
+                                   Global Styles
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+
+body,html{
+	background-color:#fff;	
+}
+
+/*
+*************************************************************************************
+                                   Global Self Styles
+/////////////////////////////////////////////////////////////////////////////////////
+*/
+.menu-trigger{
+	display: none;
+}
+.block-show{
+	display: block;
+}
+/*
+							MEDIA QUERIES HERE!
+
+*/
+
+@media only screen and (max-width:1000px){
+.image{
+	display: none;
+}
+.menu-trigger{
+	display: inline-block;
+	width:100%;
+	background-color:#f55d3e;
+	color: white;
+	border-bottom:2px solid white;
+	cursor:pointer;
+	text-align: right;
+	padding: 15px;
+	/*transition: all 0.4s;*/
+}
+.col-xs-8 ul li{
+	display: none;
+	width: 100%;
+
+}
+.block-show{
+	display: block;
+}
+							/*footer here*/
+footer [class=col-sm-4] img:nth-child(1){
+	display:block;
+	margin:0 auto;
+	width:150px;
+	height:150px;
+	max-width: 100%;
+}
+
+footer [class=col-sm-4] img:nth-child(2){
+	display:block;
+	margin:0 auto;
+	width:150px;
+	margin-top:-30px;
+	max-width: 100%;
+}
+
+
+footer [class=col-sm-3] i{
+	display:inline-block;
+	font-size:26px;	
+	color:#f55d3e;
+	margin-top:10px;
+	float: right;
+}
+
+footer [class=col-sm-5] small{
+	margin-top:10px;
+	display:block;
+	font-size:16px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	color:#c5283d;
+	text-align: center;
+	font-family:'Maven Pro', sans-serif;
+}
+
+}
+
+@media only screen and (max-width:770px){
+	.quick{
+		text-align: center;
+	}
+
+}
+
+						/*scroller*/
+.scroll-top{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 60px;
+	cursor: pointer;
+	text-decoration: none;
+	background-color:#f55d3e;
+	border: 1px solid #ffe882;
+	z-index: 50;
+}
+.scroll-top:hover{
+	border:3px solid #ffe882;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

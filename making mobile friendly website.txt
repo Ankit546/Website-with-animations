@@ -1,0 +1,12 @@
+<input type="email" size="20">
+this will present @ in the keyboard when user is entering email
+
+<input type="text" autocorrect=off autocapitalize="words">
+Ankit kumar will become Ankit Kumar
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+//add this to the css for the images so that they resize themselves if they are too big
+img {
+  max-width: 100%
+}
